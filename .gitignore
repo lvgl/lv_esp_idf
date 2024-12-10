@@ -1,0 +1,9 @@
+build*
+sdkconfig
+sdkconfig.old
+managed_components
+dependencies.lock
+.vscode
+doxygen_output/**
+dist
+__pycache__
