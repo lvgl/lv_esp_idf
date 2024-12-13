@@ -28,7 +28,7 @@
     },
     "description": "The ESP32-S3-EYE board consists of two parts: the main board (ESP32-S3-EYE-MB) that integrates the ESP32-S3-WROOM-1 module, camera, uSD card slot, digital microphone, USB port, and function buttons; and the sub board (ESP32-S3-EYE-SUB) that contains an LCD display. The main board and sub board are connected through pin headers.",
     "shortDescription": "LVGL ported to the ESP32-S3-EYE using Espressif BSP.",
-    "urlToClone": "https://github.com/liamHowatt/lv_esp_idf.git",
+    "urlToClone": "https://github.com/lvgl/lv_esp_idf.git",
     "logos": [
         "https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/espressif/logo.svg"
     ],

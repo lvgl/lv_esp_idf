@@ -28,7 +28,7 @@
     },
     "description": "ESP32-BOX is an AI voice development kit that is based on Espressif’s ESP32-S3 with AI capabilities. In addition to the touch screen, it features a dual microphone, a speaker, and two Pmod™-compatible headers which allow for the extensibility of the hardware. It uses a Type-C USB connector that provides 5 V of power input, while also supporting serial and JTAG debugging, as well as a programming interface; all through the same connector.",
     "shortDescription": "LVGL ported to the ESP32-BOX using Espressif BSP.",
-    "urlToClone": "https://github.com/liamHowatt/lv_esp_idf.git",
+    "urlToClone": "https://github.com/lvgl/lv_esp_idf.git",
     "logos": [
         "https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/espressif/logo.svg"
     ],

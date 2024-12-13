@@ -28,7 +28,7 @@
     },
     "description": "CoreS3 is the third generation of the M5Stack Core series. Powered by the ESP32-S3 solution, this kit features a dual-core Xtensa LX7 processor running at 240MHz. CoreS3 comes equipped with built-in Wi-Fi functionality, enabling seamless connectivity. It boasts 16MB of onboard flash memory and 8MB of PSRAM, providing ample space for program storage.",
     "shortDescription": "LVGL ported to M5Stack CoreS3 using Espressif BSP.",
-    "urlToClone": "https://github.com/liamHowatt/lv_esp_idf.git",
+    "urlToClone": "https://github.com/lvgl/lv_esp_idf.git",
     "logos": [
         "https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/espressif/logo.svg"
     ],

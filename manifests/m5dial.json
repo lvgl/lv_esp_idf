@@ -28,7 +28,7 @@
     },
     "description": "As a versatile embedded development board, M5Dial integrates the necessary features and sensors for various smart home control applications. It features a 1.28-inch round TFT touchscreen, a rotary encoder, an RFID detection module, an RTC circuit, a buzzer, and under-screen buttons, enabling users to easily implement a wide range of creative projects.",
     "shortDescription": "LVGL ported to the M5SDial using Espressif BSP.",
-    "urlToClone": "https://github.com/liamHowatt/lv_esp_idf.git",
+    "urlToClone": "https://github.com/lvgl/lv_esp_idf.git",
     "logos": [
         "https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/espressif/logo.svg"
     ],
