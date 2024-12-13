@@ -1,5 +1,5 @@
 {
-    "name": "ESP32-S3-EYE",
+    "name": "ESP32-S3-BOX-3",
     "maintainer": "LVGL",
     "hostOperatingsystem": [
         "Linux",
@@ -14,20 +14,20 @@
         "manufacturer": "Espressif",
         "specs": {
             "MCU": "ESP32-S3",
-            "RAM": "512 KB internal SRAM, 8 MB external PSRAM",
-            "Flash": "8/16 MB",
+            "RAM": "512 KB internal SRAM, 16 MB external PSRAM",
+            "Flash": "16 MB",
             "GPU": "None",
-            "Resolution": "240x240",
-            "Display Size": "1.3\u201d",
-            "Interface": "SPI",
+            "Resolution": "320x240",
+            "Display Size": "2.4”",
+            "Interface": "SPI 40 MHz",
             "Color Depth": "16-bit",
-            "Technology": "LCD",
-            "DPI": "261 px/inch",
-            "Touch Pad": "None"
+            "Technology": "RGB LCD (ILI9341)",
+            "DPI": "166 px/inch",
+            "Touch Pad": "Capacitive (GT911)"
         }
     },
-    "description": "The ESP32-S3-EYE board consists of two parts: the main board (ESP32-S3-EYE-MB) that integrates the ESP32-S3-WROOM-1 module, camera, uSD card slot, digital microphone, USB port, and function buttons; and the sub board (ESP32-S3-EYE-SUB) that contains an LCD display. The main board and sub board are connected through pin headers.",
-    "shortDescription": "LVGL ported to the ESP32-S3-EYE using Espressif BSP.",
+    "description": "Espressif Systems ESP32-S3-BOX-3 Next-Generation Open-Source AIoT Kit is based on the ESP32-S3 Wi-Fi + BLUETOOTH® 5 (LE) SoC with AI acceleration capabilities. In addition to the ESP32-S3 SoCs 512KB SRAM, the ESP32-S3-BOX-3 comes with 16MB of Quad flash and 16MB of Octal PSRAM. ESP32-S3-BOX-3 features a 2.4-inch (320 x 240) SPI touchscreen, two digital microphones, a speaker, a Type-C port, and a high-density PCIe connector for hardware extensibility. A speech-recognition framework provides users with an offline AI voice assistant with far-field voice interaction, continuous recognition, wake-up interruption, and the ability to recognize over 200 customizable command words. The device can also be transformed into an online AI chatbot using advanced AIGC development platforms like OpenAI.",
+    "shortDescription": "LVGL ported to ESP32-S3-BOX-3 using Espressif BSP.",
     "urlToClone": "https://github.com/liamHowatt/lv_esp_idf.git",
     "logos": [
         "https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/espressif/logo.svg"
@@ -43,7 +43,7 @@
             "actions": [
                 {
                     "toReplace": "bsp_replaceme",
-                    "newContent": "esp32_s3_eye",
+                    "newContent": "esp-box-3",
                     "filePath": "main/idf_component.yml"
                 }
             ]
