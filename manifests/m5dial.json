@@ -18,7 +18,7 @@
             "Flash": "8/16 MB",
             "GPU": "None",
             "Resolution": "240x240",
-            "Display Size": "1.28\u201d",
+            "Display Size": "1.28”",
             "Interface": "SPI",
             "Color Depth": "16-bit",
             "Technology": "TFT",
@@ -32,6 +32,7 @@
     "logos": [
         "https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/espressif/logo.svg"
     ],
+    "image": "https://raw.githubusercontent.com/lvgl/lv_esp_idf/master/board_images/M5Stack-Dial.webp",
     "branches": [
         "release/v9.2"
     ],
