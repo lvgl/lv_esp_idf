@@ -32,6 +32,7 @@
     "logos": [
         "https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/espressif/logo.svg"
     ],
+    "image": "https://raw.githubusercontent.com/lvgl/lv_esp_idf/master/board_images/espressif-ESP32-S3-BOX-3.webp",
     "branches": [
         "release/v9.2"
     ],
