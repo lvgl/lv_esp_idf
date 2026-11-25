@@ -36,7 +36,7 @@
     "branches": [
         "release/v9.2"
     ],
-    "getStartedInstructions": "1. Set up [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32p4/get-started/index.html)\n2. `idf.py -p <COMx or /dev/ttyx> flash monitor`",
+    "getStartedInstructions": "1. Set up [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32p4/get-started/index.html)\n2. Connect the LCD as in Espressif's [user guide](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32p4/esp32-p4-function-ev-board/user_guide.html#hardware-setup)\n3. `idf.py -p <COMx or /dev/ttyx> flash monitor`",
     "settings": [
         {
             "type": "always",
@@ -62,7 +62,7 @@
                     "name": "1024x600",
                     "value": "1"
                 }
-            ],
+            ]
         },
         {
             "type": "dropdown",

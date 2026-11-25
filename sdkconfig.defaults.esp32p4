@@ -1,0 +1,13 @@
+# Target-specific defaults for ESP32-P4 (ESP32-P4 Function EV Board).
+# Loaded automatically after sdkconfig.defaults, so the settings here apply only to
+# this target and leave the other boards in manifests/ untouched.
+
+# ESP-IDF 6.1: the QIO bootloader does not fit below the default 0x8000 offset
+# ESP-IDF 5.5: the app does not fit the 0x160000 factory partition of partitions.csv
+CONFIG_PARTITION_TABLE_OFFSET=0x9000
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions_esp32p4.csv"
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+
+# The P4 PSRAM runs at 200 MHz (sdkconfig.defaults sets 80 MHz for the S3). ESP-IDF 5.5 lists 200 MHz as experimental.
+CONFIG_IDF_EXPERIMENTAL_FEATURES=y
+CONFIG_SPIRAM_SPEED_200M=y
