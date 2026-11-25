@@ -7,9 +7,19 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "esp_log.h"
+#include "esp_idf_version.h"
 
 #include "lv_demos.h"
 #include "bsp/esp-bsp.h"
+
+#if CONFIG_IDF_TARGET_ESP32P4 && ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL(6, 1, 0)
+#include "hal/cache_ll.h"
+/* P4 L1 D-cache livelock, espressif/esp-idf#19369: IDF 6.1 sets undef_op = 2, go back to 0 */
+__attribute__((constructor(101))) static void p4_l1_dcache_round_robin(void)
+{
+    cache_ll_preload_set_strategy(1, CACHE_TYPE_DATA, CACHE_LL_ID_ALL, CACHE_LL_PRELOAD_UNTIL_FETCH_DONE);
+}
+#endif
 
 static char *TAG = "app_main";
 
